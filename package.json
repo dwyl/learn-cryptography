@@ -23,5 +23,8 @@
   "homepage": "https://github.com/nelsonic/learn-crypto",
   "dependencies": {
     "bcrypt": "^0.8.1"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
   }
 }

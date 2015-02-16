@@ -10,9 +10,9 @@
 ### Node.js Modules
 
 + ***Core*** **Crypto**: http://nodejs.org/api/crypto.html
++ **bcrypt**: https://www.npmjs.com/package/bcrypt
 + **scrypt**: https://www.npmjs.com/package/scrypt
-+ https://www.npmjs.com/package/js-scrypt
-+ **bcrypt**:
++ js-scrypt: https://www.npmjs.com/package/js-scrypt
 
 
 ## Further Reading
@@ -46,7 +46,13 @@ http://www.securityfocus.com/blogs/262
 https://en.wikipedia.org/wiki/Proof-of-work_system
 + Cryptographic hash function
 http://en.wikipedia.org/wiki/Cryptographic_hash_function
-+ Scrypt
++ Asymptotic analysis: 
+http://en.wikipedia.org/wiki/Asymptotic_analysis
++ Bcrypt:
+http://en.wikipedia.org/wiki/Bcrypt
++ Blowfish:
+http://en.wikipedia.org/wiki/Blowfish_(cipher)
++ Scrypt:
 https://en.wikipedia.org/wiki/Scrypt
 
 ## Videos
