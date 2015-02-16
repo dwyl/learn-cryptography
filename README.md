@@ -1,18 +1,50 @@
 # Learn Crypto
 
-
+Cryptography is a fascinating topic worthy of
+*many* fantastic books! see: http://amzn.to/cthr46
 
 ## Password Hashing
 
 > "* **Speed** is exactly what you **don’t want** in a **password hash function***."
 ~ [Thomas Ptacek](http://amzn.to/cthr46)
 
+Using **bcrypt** means there is a "***work factor***" for
+computing the hash of each password.
+Each increment in work-factor (beyond 8) roughly *doubles* the amount of time
+required to compute the hash.
+
+
+### bcrypt time required to derive hash
+
+```js
+{ '1': '35ms',
+'2': '35ms',
+'3': '35ms',
+'4': '35ms',
+'5': '35ms',
+'6': '35ms',
+'7': '36ms',
+'8': '36ms',
+'9': '60ms',
+'10': '107ms',
+'11': '226ms',
+'12': '449ms',
+'13': '868ms',
+'14': '1723ms',
+'15': '3406ms',
+'16': '6222ms',
+'17': '12134ms' }
+```
+
+
 ### Node.js Modules
 
 + ***Core*** **Crypto**: http://nodejs.org/api/crypto.html
 + **bcrypt**: https://www.npmjs.com/package/bcrypt
++ ***bcrypt.js**: https://github.com/dcodeIO/bcrypt.js
 + **scrypt**: https://www.npmjs.com/package/scrypt
 + js-scrypt: https://www.npmjs.com/package/js-scrypt
+(mostly borrowed from: https://code.google.com/p/javascript-bcrypt/)
 
 
 ## Further Reading
@@ -46,7 +78,7 @@ http://www.securityfocus.com/blogs/262
 https://en.wikipedia.org/wiki/Proof-of-work_system
 + Cryptographic hash function
 http://en.wikipedia.org/wiki/Cryptographic_hash_function
-+ Asymptotic analysis: 
++ Asymptotic analysis:
 http://en.wikipedia.org/wiki/Asymptotic_analysis
 + Bcrypt:
 http://en.wikipedia.org/wiki/Bcrypt
