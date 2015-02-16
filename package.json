@@ -1,0 +1,27 @@
+{
+  "name": "learn-crypto",
+  "version": "1.0.0",
+  "description": "Learn how to use Crypto in your JavaScript/Node.js apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelsonic/learn-crypto.git"
+  },
+  "keywords": [
+    "crypto",
+    "cryptography",
+    "security"
+  ],
+  "author": "@nelsonic <contact.nelsonic@gmail.com> (https://github.com/nelsonic)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonic/learn-crypto/issues"
+  },
+  "homepage": "https://github.com/nelsonic/learn-crypto",
+  "dependencies": {
+    "bcrypt": "^0.8.1"
+  }
+}
