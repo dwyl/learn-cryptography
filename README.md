@@ -9,11 +9,19 @@
 
 ### Node.js Modules
 
-- https://www.npmjs.com/package/js-scrypt
--
++ ***Core*** **Crypto**: http://nodejs.org/api/crypto.html
++ **scrypt**: https://www.npmjs.com/package/scrypt
++ https://www.npmjs.com/package/js-scrypt
++ **bcrypt**:
 
 
 ## Further Reading
+
+This is a huge and fascinating topic,
+don't skip the background (general) reading
+if you are serious about understanding security!
+
+### General
 
 + Basic Principals:
 http://www.thegeekstuff.com/2012/07/cryptography-basics/
@@ -24,10 +32,22 @@ https://crypto.stanford.edu/~dabo/cs255/
 + Cryptography: An Introduction
 (3rd Edition *Full Book* PDF):
 http://www.cs.umd.edu/~waa/414-F11/IntroToCrypto.pdf
+
+### Passwords
+
++ How To Safely Store A Password:
+http://codahale.com/how-to-safely-store-a-password/
 + Securing Passwords:
 http://www.securityfocus.com/blogs/262
+
+### Background Reading
+
 + Proof of Work:
 https://en.wikipedia.org/wiki/Proof-of-work_system
++ Cryptographic hash function
+http://en.wikipedia.org/wiki/Cryptographic_hash_function
++ Scrypt
+https://en.wikipedia.org/wiki/Scrypt
 
 ## Videos
 
