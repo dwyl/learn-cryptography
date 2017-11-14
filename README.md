@@ -10,7 +10,12 @@ of information technology security and can apply them to your projects.
 
 ## Why?
 
-
+Keeping personal/sensitive data secure is _essential_.
+Beyond any _legal_ requirements
+(e.g: ["GDPR"](https://github.com/dwyl/learn-security/#gdpr))
+safeguarding _both_ your _own_ personal data
+and that of any people _using_ your application
+is the _right_ thing to do.
 
 ## What?
 
@@ -110,6 +115,8 @@ http://en.wikipedia.org/wiki/Bcrypt
 http://en.wikipedia.org/wiki/Blowfish_(cipher)
 + Scrypt:
 https://en.wikipedia.org/wiki/Scrypt
++ Stronger Encryption in Node.js:
+http://vancelucas.com/blog/stronger-encryption-and-decryption-in-node-js
 
 ## Videos
 
