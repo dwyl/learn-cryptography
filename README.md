@@ -1,20 +1,38 @@
-# Learn Crypto
+# Learn Cryptography
 
-Cryptography is a fascinating topic worthy of
-*many* fantastic books! see: http://amzn.to/cthr46
+Cryptography is the cornerstone information security.
+While the underlying algorithms can take years to understand,
+the _principals_ can be learned by a complete beginner in minutes.
 
-## Password Hashing
+By the end of this post you will understand the 3 essential methods
+of information technology security and can apply them to your projects.
+
+
+## Why?
+
+
+
+## What?
+
+## Who?
+
+## How?
+
+### 1. Password Hashing
+
+
+
 
 > "* **Speed** is exactly what you **don’t want** in a **password hash function***."
 ~ [Thomas Ptacek](http://amzn.to/cthr46)
 
-Using **bcrypt** means there is a "***work factor***" for
+Using **bcrypt** means there is a "_**work factor**_" for
 computing the hash of each password.
 Each increment in work-factor (beyond 8) roughly *doubles* the amount of time
 required to compute the hash.
 
 
-### bcrypt time required to derive hash
+#### bcrypt time required to derive hash
 
 ```js
 // "cost" | ms required
@@ -43,14 +61,14 @@ required to compute the hash.
 ```
 
 
-### Node.js Modules
+## Node.js Modules
 
-+ ***Core*** **Crypto**: http://nodejs.org/api/crypto.html
++ ***Core*** Node.js **Crypto**: http://nodejs.org/api/crypto.html
 + **bcrypt**: https://www.npmjs.com/package/bcrypt
-+ ***bcrypt.js**: https://github.com/dcodeIO/bcrypt.js
++ ***bcrypt.js***: https://github.com/dcodeIO/bcrypt.js
 + **scrypt**: https://www.npmjs.com/package/scrypt
-+ js-scrypt: https://www.npmjs.com/package/js-scrypt
-(mostly borrowed from: https://code.google.com/p/javascript-bcrypt/)
++ **js-scrypt**: https://www.npmjs.com/package/js-scrypt
+(mostly borrowed from: https://code.google.com/p/javascript-bcrypt)
 
 
 ## Further Reading
