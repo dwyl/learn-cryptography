@@ -10,22 +10,3 @@ console.log("Original Text: " + text);
 var encryptedText = encrypt(text);
 console.log("Encrypted Text: " + encryptedText);
 var decryptedText = decrypt(encryptedText);
-console.log("Decrypted Text: " + decryptedText);
-//
-// console.log("\nAnd again...\n");
-//
-// console.log("Original Text: " + text);
-// encryptedText = encrypt(key, text);
-// console.log("Encrypted Text: " + encryptedText);
-// decryptedText = decrypt(key, encryptedText);
-// console.log("Decrypted Text: " + decryptedText);
-//
-// text = "this is another text";
-// key = "this is another key";
-//
-// console.log("\nNew text: & key: " + text);
-//
-// encryptedText = encrypt(key, text);
-// console.log("Encrypted Text: " + encryptedText);
-// decryptedText = decrypt(key, encryptedText);
-// console.log("Decrypted Text: " + decryptedText);

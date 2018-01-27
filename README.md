@@ -1,11 +1,20 @@
 # Learn Cryptography
 
-Cryptography is the cornerstone information security.
-While the underlying algorithms can take years to understand,
-the _principals_ can be learned by a complete beginner in minutes.
+Cryptography is the _cornerstone_ of information security.
+While the underlying algorithms can take _years_ to understand,
+the _principals_ can be learned by a _complete beginner_ in ***minutes***.
 
-By the end of this post you will understand the 3 essential methods
-of information technology security and can apply them to your projects.
+By the end of this post you will understand the **3 essential concepts**
+of information technology security and can ***apply*** them to your projects.
+
+## Contents
+
++ [Why?](#why)
++ [What?](#what)
++ [How?](#how)
+  + [1. Password Hashing](##1-password-hashing)
++ [Commands](#commands)
++ [Basic Types](#basic-types)
 
 
 ## Why?
@@ -19,16 +28,23 @@ is the _right_ thing to do.
 
 ## What?
 
+A beginner's tutorial for encrypting and hashing data.
+
 ## Who?
 
++ Anyone who is curious about security.
++ Everyone building web applications.
+
 ## How?
+
+We are going to cover
 
 ### 1. Password Hashing
 
 
 
 
-> "* **Speed** is exactly what you **don’t want** in a **password hash function***."
+> "_**Speed** is exactly what you **don’t want** in a **password hash function**_."
 ~ [Thomas Ptacek](http://amzn.to/cthr46)
 
 Using **bcrypt** means there is a "_**work factor**_" for
@@ -61,12 +77,21 @@ required to compute the hash.
 '17': '15449ms',
 '18': '28531ms',
 '19': '51857ms',
-'20': '98165ms' // 98 seconds
+'20': '98165ms' // 98 seconds! (v. slow!)
 }
 ```
 
+### 2. Encryption (Symmetric Key)
 
-## Node.js Modules
+
+
+### 3. Public/Private Key Encryption
+
+
+
+
+
+## Relevant Node.js Modules
 
 + ***Core*** Node.js **Crypto**: http://nodejs.org/api/crypto.html
 + **bcrypt**: https://www.npmjs.com/package/bcrypt
